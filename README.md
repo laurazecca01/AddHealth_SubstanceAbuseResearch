@@ -12,7 +12,6 @@ This research project examines the relationship between childhood abuse (physica
 - **Primary Dataset**: Wave 3 of the National Longitudinal Study of Adolescent to Adult Health (Add Health data)
 - **Sample Size**: 4,376 respondents
 - **Age Range**: 18-28 years
-- **Time Period**: Young adult years
 
 ## 🛠️ Methodology
 
@@ -45,18 +44,14 @@ This research project examines the relationship between childhood abuse (physica
    - Employment status showed significant correlation with drinking patterns
 4. Racial differences observed in both mistreatment rates and alcohol consumption
 
-## 📦 Repository Structure
+### 📦 Files from research
 ```
-├── data/
-│   └── wave3_processed.csv
-├── analysis/
-│   ├── descriptive_stats.R
-│   ├── regression_models.R
-│   └── visualization.R
-├── figures/
-│   └── [visualization files]
-└── docs/
-    └── full_report.pdf
+├── data
+│   └── wave3 data (can be downlaoded from addhealth)
+├── analysis
+│   ├── healthcare.html (includes data cleaning and preparation)
+└── docs
+    └── healthcareind.pdf
 ```
 
 ## 🔧 Technologies Used
@@ -76,8 +71,3 @@ This research project examines the relationship between childhood abuse (physica
 - Reinert and Edwards (2009)
 - Murphy et al. (1991)
 
-## 👥 Contributors
-[Add names here]
-
-## 📄 License
-[Add license information]
